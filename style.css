@@ -1,0 +1,323 @@
+body {
+  background-color: #808184;
+  text-align: center;
+  color: #fff;
+}
+
+#nav {
+  background-image: url(images/nav-background.png);
+  height: 124px;
+}
+
+.navbar-toggle {
+  background-color: #8bc53f;
+  background-image: none;
+  border: 1px solid;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+
+.dropdown-menu {
+  background-color: #8bc53f;
+}
+
+.dropdown-item {
+  color: #fff;
+  font-family: "Montserrat";
+}
+
+.nav-item {
+  padding: 0 24px;
+}
+
+.btn {
+  font-size: 1.25rem;
+  font-family: "Franklin Gothic";
+  background-color: #8bc53f;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn-outline-light {
+  border-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* .btn-outline-light:hover {
+  background-color: rgba(255, 255, 255, 0.205);
+  border-color: #ffffff;
+} */
+
+h1 {
+  size: 3rem;
+  line-height: 1.5;
+  /* color: #fff; */
+}
+
+p {
+  font-family: "Montserrat";
+  text-align: left;
+  /* color: #fff; */
+}
+
+.title-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 10px;
+}
+
+.row {
+  justify-content: space-between;
+  justify-content: center;
+}
+
+.card {
+  /* text-align: center; */
+  background-color: #8bc53f;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.card:hover {
+  background-color: green;
+  text-decoration: none;
+}
+
+.big-heading {
+  font-family: "Franklin Gothic";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.icon {
+  color: #808184;
+  margin-bottom: 1rem;
+  /* text-align: center; */
+}
+
+.card-title {
+  font-family: "Franklin Gothic";
+  color: #fff;
+  padding: 3%;
+}
+
+.card-text,
+.subtitle,
+.learn-more {
+  color: #fff;
+  font-family: "Montserrat";
+  text-align: center;
+}
+
+.testimonial-text {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  line-height: 1.5;
+  text-align: center;
+  position: relative;
+  background: #8bc53f;
+  border-radius: 10px;
+  padding: 20px;
+  max-width: 800px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.testimonial-text::after {
+  /* Creates triangle */
+  content: "";
+  border: 20px solid transparent;
+  border-top-color: #8bc53f;
+  border-bottom: 0;
+  /* Position triangle */
+  position: absolute;
+  bottom: -20px;
+  left: 50%;
+  margin-left: -20px;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+}
+
+.follow {
+  font-size: 2rem;
+  font-family: "Franklin Gothic";
+  text-align: center;
+}
+
+.carousel-item {
+  padding: 3% 15%;
+}
+
+.quote {
+  color: #808184;
+}
+
+em {
+  font-family: "Franklin Gothic";
+  font-size: 1rem;
+  color: #fff;
+  line-height: 5;
+}
+
+#footer {
+  padding: 10% 15% 0% 15%;
+  color: #fff;
+  align-items: center;
+  background-image: url(images/background.png);
+  background-size: cover;
+}
+
+.seattle {
+  width: 200px;
+  height: 200px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.align-items-center {
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.d-flex {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.license-number {
+  font-family: "Franklin Gothic";
+  text-align: center;
+  font-size: 1rem;
+}
+
+.follow {
+  font-size: 1.5rem;
+  font-family: "Franklin Gothic";
+}
+
+.fab {
+  padding: 0 0 0 1%;
+  color: #fff;
+}
+
+.fab:hover {
+  color: green;
+}
+
+.learn-more {
+  font-family: "Franklin Gothic";
+  size: 1rem;
+  padding: 1% 0 0 1%;
+  text-align: center;
+}
+
+.btn-faq {
+  font-family: "Franklin Gothic";
+  font-size: 1.5rem;
+  background-color: #808184;
+  color: #fff;
+  box-shadow: none;
+}
+
+.btn-faq:hover {
+  text-decoration: none;
+  background-color: green;
+}
+
+.btn:hover {
+  background-color: green;
+  color: #fff;
+}
+
+.fine-print,
+.incentives {
+  padding: 3% 0 3% 0;
+}
+
+.card-title-flip {
+  text-align: center;
+  size: 0.75rem;
+  font-family: "Franklin Gothic";
+}
+
+ul {
+  text-align: center;
+  size: 0.75rem;
+  font-family: "Montserrat";
+}
+
+.question-body {
+  text-align: left;
+  size: 1rem;
+  font-family: "Montserrat";
+  padding: 0 10% 0 10%;
+}
+
+.question {
+  padding: 0 10% 0 10%;
+}
+
+.flip-card {
+  text-align: center;
+  background-color: #8bc53f;
+  /* padding: 1%; */
+  border-radius: 10px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  perspective: 1000px;
+}
+
+/* .flip-card {
+  background-color: #8bc53f;
+  width: auto;
+  height: auto;
+  perspective: 1000px;
+} */
+
+.flip-card-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+.flip-card:hover .flip-card-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+.flip-card-back {
+  background-color: green;
+  color: white;
+  transform: rotateY(180deg);
+  text-align: center;
+  size: 0.75rem;
+  font-family: "Montserrat";
+}
+
+.photo-carousel {
+  border-radius: 10px;
+  width: 500px;
+  height: auto;
+  align-items: center;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.form-fill {
+  padding: 3%;
+}

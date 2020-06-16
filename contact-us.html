@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Troubleshooting - Impact Electrical NW</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://use.typekit.net/ktr3twj.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <!-- My CSS -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- Font Awesome Icons -->
+    <script
+      src="https://kit.fontawesome.com/2e81adc2f9.js"
+      crossorigin="anonymous"
+    ></script>
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+
+  <body>
+    <section id="nav">
+      <!-- Nav logo and home button -->
+      <nav class="navbar navbar-expand-lg navbar-dark">
+        <a href="index.html">
+          <img
+            class="navbar-brand ml-4"
+            src="images/logo.png"
+            width="206"
+            height="60"
+            alt="Logo for Impact Electrical"
+          />
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown btn btn-outline-light mr-4">
+              <a class="nav-link text-white" href="contact-us.html"
+                >Contact Us</a
+              >
+            </li>
+            <li class="nav-item dropdown btn btn-outline-light mr-4">
+              <a
+                class="nav-link dropdown-toggle text-white"
+                href="#"
+                id="navbarDropdown"
+                role="button"
+                data-toggle="dropdown"
+                aria-haspopup="true"
+                aria-expanded="false"
+              >
+                Services
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="free-estimates.html"
+                  >Free Estimates</a
+                >
+                <a class="dropdown-item" href="car-charger.html"
+                  >Car Charger Installation</a
+                >
+                <a class="dropdown-item" href="new-construction.html"
+                  >New Construction</a
+                >
+                <a class="dropdown-item" href="remodel.html">Remodel</a>
+                <a class="dropdown-item" href="panel-upgrade.html"
+                  >Panel Upgrade</a
+                >
+                <a class="dropdown-item" href="troubleshooting.html"
+                  >Troubleshooting</a
+                >
+              </div>
+            </li>
+            <li class="nav-item btn btn-outline-light mr-4">
+              <a class="nav-link text-white" href="faqs.html">FAQs</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </section>
+
+    <div class="container mt-5 mb-5">
+      <div class="row">
+        <div class="col-lg-5">
+          <h3 class="big-heading">Contact Us</h3>
+          <p>
+            We have a busy schedule so the best way to reach us is through
+            filling out this form. Please fill out your contact details and what
+            services you need. You can also fill out a brief description of what
+            you are looking for. Someone from our team should reach out within
+            two to three business days.
+          </p>
+        </div>
+        <div class="col-lg-5">
+          <img
+            class="title-image"
+            src="images/contact-us.jpg"
+            alt="Photo of home under construction"
+          />
+        </div>
+      </div>
+    </div>
+
+    <form action="submit" method="post">
+      <div class="container">
+        <div class="form-group">
+          <div class="row">
+            <div class="col-lg-5 mt-1 mb-1 ml-3 mr-3">
+              <div class="form-fill">
+                <input
+                  type="name"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="First and Last Name"
+                />
+              </div>
+              <div class="form-fill">
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput2"
+                  placeholder="Email"
+                />
+              </div>
+              <div class="form-fill">
+                <input
+                  type="phone"
+                  class="form-control"
+                  id="exampleFormControlInput3"
+                  placeholder="Phone Number"
+                />
+              </div>
+              <div class="form-fill">
+                <input
+                  type="zip-code"
+                  class="form-control"
+                  id="exampleFormControlInput4"
+                  placeholder="Zip Code"
+                />
+              </div>
+            </div>
+            <div class="col-lg-3 mt-1 mb-1 ml-3">
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox1"
+                  value="option1"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Estimate</label
+                >
+              </p>
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox2"
+                  value="option2"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Car Charger Installation</label
+                >
+              </p>
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox3"
+                  value="option3"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >New Construction</label
+                >
+              </p>
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox4"
+                  value="option4"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Remodel</label
+                >
+              </p>
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox5"
+                  value="option5"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Panel Upgrade</label
+                >
+              </p>
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox6"
+                  value="option6"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Troubleshooting</label
+                >
+              </p>
+              <p>
+                <input
+                  class="form-check-input"
+                  type="checkbox"
+                  id="inlineCheckbox7"
+                  value="option7"
+                />
+                <label class="form-check-label" for="inlineCheckbox1"
+                  >Other</label
+                >
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <ul class="col-lg-10">
+            <label for="exampleFormControlTextarea1"
+              >Please provide a brief description of what services you
+              need.</label
+            >
+            <textarea
+              class="form-control"
+              id="exampleFormControlTextarea1"
+              rows="3"
+            ></textarea>
+          </ul>
+        </div>
+        <button type="submit" class="btn btn-outline-light mt-3">Submit</button>
+      </div>
+    </form>
+
+    <!-- Testimonials -->
+
+    <section id="testimonials">
+      <h1 class="big-heading mt-5 mb-5">
+        What our customers are saying...
+      </h1>
+      <div id="testimonial-carousel" class="carousel slide" data-ride="false">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              <ul>Excellence in experience of workmanship and service!</ul>
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Cami F</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              These guys are professionals and offer quality services! Andrew
+              and all of his employees are great to work with and get the job
+              done right! I wouldn't hesitate to recommend them to anyone.
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Bryce T</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              I highly recommend Impact Electrical Services. We needed to
+              upgrade an old electrical panel. Their work was professional and
+              thorough. They responded to all our questions promptly. The follow
+              up inspection with the city electrical inspector went smoothly
+              because of the high quality of their work. As an owner of a local
+              business, I love supporting other local business. Thanks so much!
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Teresa B</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              In an era where service is becoming automated and less accessible
+              it was refreshing to find a company who is service driven,
+              responsive, professional and knowledgeable. Andrew was quick to
+              assess our electrical issues and repair the same day. He had
+              creative suggestions for our future landscape lighting projects
+              and was cost conscious with solutions.
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Mary W</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              Detail oriented and hard working! Would definitely hire for my
+              projects
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Mary S</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              Friendly, efficient and tidy (not a speck of dust left behind).
+              Definitely will hire again!
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Sarah T</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              I can't say enough good things about Impact Electrical Services. I
+              had an emergency. Andrew came out quickly. He fixed the problem
+              with a smile on his face and a very comforting attitude.
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Amanda Y</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              Andrew was very polite and efficient! He was referred to me by
+              another contractor as being highly respected in his field!
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Connie F</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              Reliable and great to work with. Andrew did an amazing job on my
+              old house with old wires/old panel. Wish i could give him more
+              than 5 stars for all the good hard work. Thanks man.
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Jared O</em>
+          </div>
+          <div class="carousel-item">
+            <h2 class="testimonial-text">
+              <i class="quote fas fa-quote-left"></i>
+              Very knowledgeable, reliable, friendly, and great work.
+              <i class="quote fas fa-quote-right"></i>
+            </h2>
+            <em>Felipe S</em>
+          </div>
+        </div>
+        <a
+          class="carousel-control-prev"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a
+          class="carousel-control-next"
+          href="#testimonial-carousel"
+          role="button"
+          data-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+      <div class="social">
+        <p class="follow mr-4 mb-4">Follow and review</p>
+        <a
+          class="link mr-4 mb-4"
+          href="https://www.facebook.com/impactelectricalnw/"
+        >
+          <i class="fab fa-facebook fa-2x"></i>
+        </a>
+        <a
+          class="link mr-4 mb-4"
+          href="https://www.yelp.com/biz/impact-electrical-services-everett?osq=impact+electrical"
+        >
+          <i class="fab fa-yelp fa-2x"></i>
+        </a>
+      </div>
+    </section>
+
+    <section id="footer">
+      <div class="row">
+        <div class="col-lg-4">
+          <img class="seattle" src="images/seattle.jpg" />
+        </div>
+        <div class="col-lg-8 ml-auto d-flex align-items-center">
+          <h3 class="big-heading">
+            Serving King and Snohomish Counties in Washington.
+          </h3>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <p class="license-number mt-4">
+            License # IMPACES832P3
+          </p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
